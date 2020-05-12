@@ -1,3 +1,6 @@
 module.exports = {
-    extends: ['@commitlint/config-angular']
+    // extends angular config rules
+    extends: ['@commitlint/config-angular'],
+    // customize rules here
+    rules: {}
 }
